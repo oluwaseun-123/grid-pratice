@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+  grid-template-rows: repeat(4, 10rem);
+  grid-template-columns: repeat(4, 15rem);
+  gap: 6px;
+  padding: 1rem;
+}
+.grid div {
+  width: 100%;
+}
+.grid div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.fifthnature {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.thirdnature {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.sixthnature {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.six {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 15.5rem;
+}
+.last {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  margin-bottom: 5rem;
+}
